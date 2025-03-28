@@ -1,2 +1,19 @@
+.holder {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+}
 
-/* Your CSS Code here. */
+.item-1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: center; /* Center text inside */
+    align-items: center; /* Center text inside */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
